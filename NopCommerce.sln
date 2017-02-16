@@ -83,6 +83,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Plugin.Pickup.PickupInS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Plugin.Widgets.HomePageNewProductsPlugin", "Plugins\Nop.Plugin.Widgets.HomePageNewProductsPlugin\Nop.Plugin.Widgets.HomePageNewProductsPlugin.csproj", "{A7C10FA0-0601-4AD2-9418-59337D18A72C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Plugin.Widgets.HomePageNewProductsPlugin.Tests", "Tests\Nop.Plugin.Widgets.HomePageNewProductsPlugin.Tests\Nop.Plugin.Widgets.HomePageNewProductsPlugin.Tests.csproj", "{0DC38DA6-9AD0-4B2F-ABE8-FC56B24ABAF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -459,6 +461,18 @@ Global
 		{A7C10FA0-0601-4AD2-9418-59337D18A72C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{A7C10FA0-0601-4AD2-9418-59337D18A72C}.Release|x86.ActiveCfg = Release|Any CPU
 		{A7C10FA0-0601-4AD2-9418-59337D18A72C}.Release|x86.Build.0 = Release|Any CPU
+		{0DC38DA6-9AD0-4B2F-ABE8-FC56B24ABAF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DC38DA6-9AD0-4B2F-ABE8-FC56B24ABAF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DC38DA6-9AD0-4B2F-ABE8-FC56B24ABAF3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0DC38DA6-9AD0-4B2F-ABE8-FC56B24ABAF3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{0DC38DA6-9AD0-4B2F-ABE8-FC56B24ABAF3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0DC38DA6-9AD0-4B2F-ABE8-FC56B24ABAF3}.Debug|x86.Build.0 = Debug|Any CPU
+		{0DC38DA6-9AD0-4B2F-ABE8-FC56B24ABAF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DC38DA6-9AD0-4B2F-ABE8-FC56B24ABAF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DC38DA6-9AD0-4B2F-ABE8-FC56B24ABAF3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0DC38DA6-9AD0-4B2F-ABE8-FC56B24ABAF3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{0DC38DA6-9AD0-4B2F-ABE8-FC56B24ABAF3}.Release|x86.ActiveCfg = Release|Any CPU
+		{0DC38DA6-9AD0-4B2F-ABE8-FC56B24ABAF3}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -500,6 +514,7 @@ Global
 		{6DF00C56-EC49-4AB8-8B29-404E3694026C} = {7881B112-7843-4542-B1F7-F99553FB9BB7}
 		{06C88D0B-A276-4D3D-8BE5-7C58BF3072E3} = {7881B112-7843-4542-B1F7-F99553FB9BB7}
 		{A7C10FA0-0601-4AD2-9418-59337D18A72C} = {7881B112-7843-4542-B1F7-F99553FB9BB7}
+		{0DC38DA6-9AD0-4B2F-ABE8-FC56B24ABAF3} = {A340B280-C12B-47E7-90B7-89C650F8AAFC}
 	EndGlobalSection
 	GlobalSection(NDepend) = preSolution
 		Project = ".\NopCommerce.ndproj"
