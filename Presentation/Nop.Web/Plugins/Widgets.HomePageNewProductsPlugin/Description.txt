@@ -1,0 +1,9 @@
+Group: Widgets
+FriendlyName: Plugin that displays on the Home page specified number of the newest products
+SystemName: Widgets.HomePageNewProductsPlugin
+Version: 1.0
+SupportedVersions: 3.80
+Author: Tsvetan Razsolkov
+DisplayOrder: 1
+FileName: Nop.Plugin.Widgets.HomePageNewProductsPlugin.dll
+Description: This plugin displays on the Home page a number of the newest products as specified by the store administrator
