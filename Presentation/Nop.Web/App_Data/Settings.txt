@@ -1,2 +1,2 @@
 DataProvider: sqlserver
-DataConnectionString: Data Source=aeb16e9b-1389-4e4f-b1ff-a71c00f4c803.sqlserver.sequelizer.com;Initial Catalog=dbaeb16e9b13894e4fb1ffa71c00f4c803;User ID=ckmzamhpiytdkttk;Password=M3k8KUHoFjFRYGRiHaMQZpBkAwXLxCoY5jtb37arYovY6JTUpLHyheFwyaEn65Yd
+DataConnectionString: Data Source=b74f1b67-c8f7-42e8-8d11-a71c0123f9ba.sqlserver.sequelizer.com;Initial Catalog=dbb74f1b67c8f742e88d11a71c0123f9ba;User ID=gtyrfkjnmikilymo;Password=UHoCkKQnwC8eJfuP4UtBnfWfy4xiRCMQekSbEsnMeTrSAr6xaSyNLcvNTheqnGD3

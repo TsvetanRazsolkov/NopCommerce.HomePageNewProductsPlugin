@@ -1,4 +1,4 @@
-Group: Widgets
+﻿Group: Widgets
 FriendlyName: Plugin that displays on the Home page specified number of the newest products
 SystemName: Widgets.HomePageNewProductsPlugin
 Version: 1.0
