@@ -90,9 +90,7 @@ namespace Nop.Plugin.Widgets.HomePageNewProductsPlugin.Controllers
             var model = new ConfigurationModel();
             model.ItemsCount = homePageNewProductsSettings.ItemsCount;
             model.ItemsCountRangeHint = string.Format(_localizationService.GetResource("plugin.widgets.homepagenewproductsplugin.itemscountrange.hint"), ConfigurationModel.MinCountOfItemsToDisplay, ConfigurationModel.MaxCountOfItemsToDisplay);
-            model.ZoneId = homePageNewProductsSettings.WidgetZone;
-            model.AvailableZones.Add(new SelectListItem() { Text = "Before body end html tag", Value = "body_end_html_tag_before" });
-            model.AvailableZones.Add(new SelectListItem() { Text = "Head html tag", Value = "head_html_tag" });
+            model.ZoneId = homePageNewProductsSettings.WidgetZone;                        
             model.AvailableZones.Add(new SelectListItem() { Text = "Home page top", Value = "home_page_top" });
             model.AvailableZones.Add(new SelectListItem() { Text = "Home page before categories", Value = "home_page_before_categories" });
             model.AvailableZones.Add(new SelectListItem() { Text = "Home page before products", Value = "home_page_before_products" });
@@ -152,7 +150,7 @@ namespace Nop.Plugin.Widgets.HomePageNewProductsPlugin.Controllers
         }
 
         [NonAction]
-        protected virtual IEnumerable<ProductOverviewModel> PrepareProductOverviewModels(IEnumerable<Product> products, int storeScope = 0,
+        private IEnumerable<ProductOverviewModel> PrepareProductOverviewModels(IEnumerable<Product> products, int storeScope = 0,
             bool preparePriceModel = true, bool preparePictureModel = true,
             int? productThumbPictureSize = null, bool prepareSpecificationAttributes = false,
             bool forceRedirectionAfterAddingToCart = false)
